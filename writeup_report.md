@@ -10,7 +10,7 @@
 
 
 To run the code, grab the training data from 
-https://github.com/udacity/CarND-Vehicle-Detection and step through the vehicle_detection.ipynb.
+https://github.com/udacity/CarND-Vehicle-Detection and step through the [vehicle_detection.ipynb](https://github.com/nrghike/CarND-Vehicle-Detection/blob/master/vehicle_detection.ipynb).
 
 
 [//]: # "Image References"
@@ -19,7 +19,7 @@ https://github.com/udacity/CarND-Vehicle-Detection and step through the vehicle_
 [image3]: ./output_images/Heat_Map.png
 [image4]: ./output_images/Feature_Vector_Normalization.png
 [image5]: ./output_images/Sliding_window_Search.png
----
+
 
 **Vehicle Detection Project**
 
@@ -51,7 +51,7 @@ The code for this step is contained in the first code cell of the IPython notebo
 
 I started by reading in all the `vehicle` and `non-vehicle` images.  Here is an example of one of each of the `vehicle` and `non-vehicle` classes:
 
-![alt text][image1]
+![alt text1][image1]
 
 
 I then explored different color spaces and different `skimage.hog()` parameters (`orientations`, `pixels_per_cell`, and `cells_per_block`).  I grabbed random images from each of the two classes and displayed them to get a feel for what the `skimage.hog()` output looks like.
@@ -80,7 +80,7 @@ def get_hog_features(img, orient, pix_per_cell, cell_per_block,
 Here is an example using the `YCrCb` color space and HOG parameters of `orientations=8`, `pixels_per_cell=(8, 8)` and `cells_per_block=(2, 2)`:
 
 
-![alt text][image2]
+![alt text1][image2]
 
 
 
@@ -142,7 +142,7 @@ end_time = time.time()
 ```
 
 
-![Alt Text][image4]
+![Alt Text4][image4]
 
 ###Sliding Window Search
 
@@ -189,7 +189,7 @@ scales to remove false positive for each frame. Here are some example images:
 
 ####1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
 
-Here's a [link to my video result](./output_video.mp4)
+Here's a [link to my video result](https://github.com/nrghike/CarND-Vehicle-Detection/blob/master/output_video.mp4)
 
 
 ####2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.

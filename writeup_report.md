@@ -13,7 +13,7 @@ To run the code, grab the training data from
 https://github.com/udacity/CarND-Vehicle-Detection and step through the vehicle_detection.ipynb.
 
 
-[//]: # (Image References)
+[//]: # "Image References"
 [image1]: ./output_images/Dataset_visualization.png
 [image2]: ./output_images/Hog_feature_Visualization.png
 [image3]: ./output_images/Heat_Map.png
